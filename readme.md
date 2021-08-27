@@ -1,8 +1,8 @@
-# Ascii Multi Tool
-Ascii Multi Tool is a tool that involves only ascii to do very cool things! Including other features like encryption etc.
+# node Multi Tool
+node Multi Tool is a tool that involves node.js to do very cool things! Including other features like encryption etc.
 
 ### Resources 
-	[Github](https://github.com/seagull101/Asciimultitool) 
+	[Github](https://github.com/seagull101/nodemultitool) 
 	
 ## Version B0.0 Patch Notes:
 +Pbar Function
