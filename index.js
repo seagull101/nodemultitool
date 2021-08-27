@@ -11,7 +11,9 @@ function pbar(a,b,c){
 			result = result + "."
 		}
 	}
+function encrypt(content,seed){
 
+}
 return result
 }
 //Test Area
