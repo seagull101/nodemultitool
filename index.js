@@ -38,7 +38,7 @@ function encrypt(content){
 	
 let asciitable = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z','"',"'",'`','~','-','+','=','_','|','🐶','🅰','🌡','🐱','👌','🔞','🔥','📅','📕','⛔','💋','📻','?',
 '.','🅱','💵','🚱','🔫','🎲','💬','🍆','™','©','⚒','🧂',':',';',
-'👤','🤵','❔','🎟','✅']
+'👤','🤵','❔','🎟','✅','🤵']
 var seed = Math.floor(Math.random()*asciitable.length*(Math.random()*4096))
 console.log(seed)
 var encryptedtable = []
@@ -55,11 +55,9 @@ for(i = 0; i < asciitable.length; i++){
 	}		
 	position = position - 1
 	encryptedtable[i] = asciitable[position]
-	console.log(encryptedtable[i]+":"+asciitable[i])
+	content.split()
 }
 console.log(seedb)
-console.log(asciitable)
-console.log(encryptedtable)
 key = 'CCEK-'+seed
 console.log(key)
 const encryptedmessage = {
