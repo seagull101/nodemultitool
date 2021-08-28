@@ -9,7 +9,7 @@ function wholenum(n){
 function searchlist(array,term){
 	var id = null
 	var result = false
-	for(i = 1; i < array.length; i++){
+	for(i = 0; i < array.length; i++){
 		if(array[i]==term){
 			id = i
 		}
@@ -48,8 +48,18 @@ while(seedb>asciitable.length){
 		seedb = seedb - asciitable.length
 	
 }
+for(i = 0; i < asciitable.length; i++){
+	var position = i+seedb
+	if(position > asciitable.length){
+		position = position - asciitable.length
+	}		
+	position = position - 1
+	encryptedtable[i] = asciitable[position]
+	console.log(encryptedtable[i]+":"+asciitable[i])
+}
 console.log(seedb)
 console.log(asciitable)
+console.log(encryptedtable)
 key = 'CCEK-'+seed
 console.log(key)
 const encryptedmessage = {
