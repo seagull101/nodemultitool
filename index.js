@@ -77,19 +77,6 @@ function decrypt(content,key,dateprocessed){
 }
 */
 var npmversion = "0.0.0"
-exec("sh getversion.sh", (error, stdout, stderr) => {
-    if (error) {
-        console.log(`error: ${error.message}`);
-        return;
-    }
-    if (stderr) {
-        console.log(`stderr: ${stderr}`);
-        return;
-    }
-
-    console.log(stdout);
-
-});
 
 const runtime = {
 	
@@ -98,4 +85,3 @@ const runtime = {
 //Test Area
 console.log("Quality Testing")
 console.log(pbar(5,7,20))
-encrypt("erbium")
