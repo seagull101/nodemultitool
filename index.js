@@ -1,4 +1,7 @@
 //functions
+const { exec } = require("child_process");
+
+
 function wholenum(n){
 	if(n == math.floor(n)){
 		return true
@@ -69,6 +72,24 @@ return encryptedmessage
 
 function decrypt(content,key,dateprocessed){
 
+}
+var npmversion = "0.0.0"
+exec("sh getversion.sh", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+
+    console.log(stdout);
+
+});
+
+const runtime = {
+	
 }
 
 //Test Area
