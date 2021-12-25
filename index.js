@@ -37,6 +37,7 @@ function pbar(a,b,c){
 
 return result
 }
+/*
 function encrypt(content){
 	
 let asciitable = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z','"',"'",'`','~','-','+','=','_','|','🐶','🅰','🌡','🐱','👌','🔞','🔥','📅','📕','⛔','💋','📻','?',
@@ -69,10 +70,12 @@ const encryptedmessage = {
 }
 return encryptedmessage
 }
-
+*/
+/*
 function decrypt(content,key,dateprocessed){
 
 }
+*/
 var npmversion = "0.0.0"
 exec("sh getversion.sh", (error, stdout, stderr) => {
     if (error) {
